@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Named Simple Interest</title>
+</head>
+<body>
+    <script>
+        function SI() {
+            let p = Number(prompt("Enter the Principal"));
+            let r = Number(prompt("Enter the Rate"));
+            let t = Number(prompt("Enter the Time"));
+            let si = (p * r * t) / 100;
+            return si;
+        }
+
+        let result = SI(); // Call function and store returned value
+        document.writeln("Named Simple Interest = " + result);
+    </script>
+</body>
+</html>
